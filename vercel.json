@@ -11,5 +11,12 @@
     "routes": [{
         "src": "/(.*)",
         "dest": "/index.php"
-    }]
+    }],
+    "env": {
+        "APP_ENV": "production",
+        "APP_DEBUG": "true",
+        "LOG_CHANNEL": "stderr",
+        "SESSION_DRIVER": "cookie",
+        "CACHE_DRIVER": "array"
+    }
 }
